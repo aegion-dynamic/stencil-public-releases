@@ -287,13 +287,38 @@ main {
   display: flex;
   align-items: center;
   justify-content: center;
-  min-height: 280px;
 }
 
-.hero-logo {
+.hero-visual::before {
+  content: '';
+  position: absolute;
+  inset: 5% 0;
+  background: radial-gradient(
+    ellipse at center,
+    rgba(217, 217, 217, 0.08) 0%,
+    transparent 70%
+  );
+  pointer-events: none;
+}
+
+.hero-video-frame {
   position: relative;
   z-index: 1;
-  border-radius: 12px;
+  width: 100%;
+  max-width: 520px;
+  border-radius: var(--radius);
+  border: 1px solid var(--border);
+  background: var(--bg-card);
+  box-shadow:
+    0 24px 48px rgba(0, 0, 0, 0.45),
+    0 0 0 1px rgba(217, 217, 217, 0.04);
+  overflow: hidden;
+}
+
+.hero-video {
+  display: block;
+  width: 100%;
+  height: auto;
 }
 
 /* Download buttons */
@@ -903,13 +928,11 @@ main {
   }
 
   .hero-visual {
-    min-height: 200px;
+    order: -1;
   }
 
-  .hero-logo {
-    width: 80px;
-    height: 80px;
-    border-radius: 8px;
+  .hero-video-frame {
+    max-width: 100%;
   }
 
   .two-col {

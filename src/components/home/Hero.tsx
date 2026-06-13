@@ -23,8 +23,18 @@ export function Hero() {
             Browse free templates →
           </a>
         </div>
-        <div className="hero-visual" aria-hidden="true">
-          <img src={assetUrl('favicon.svg')} alt="" className="hero-logo" width={120} height={120} />
+        <div className="hero-visual">
+          <div className="hero-video-frame">
+            <video
+              className="hero-video"
+              src={assetUrl('Stencil-Fast-1.mp4')}
+              autoPlay
+              muted
+              loop
+              playsInline
+              aria-label="Stencil desktop app demo: building PDFs from Typst templates"
+            />
+          </div>
         </div>
       </div>
     </section>
