@@ -6,7 +6,7 @@ export function WhyTypst() {
         <p className="section-lead">
           Typst is a modern typesetting language designed for documents: fast compilation,
           clean syntax, and reliable PDF output. Stencil wraps Typst so you do not need the
-          CLI — templates, data, build, and preview live in one desktop workflow.
+          CLI. Templates, data, build, and preview live in one desktop workflow.
         </p>
       </div>
     </section>

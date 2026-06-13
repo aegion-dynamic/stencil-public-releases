@@ -29,7 +29,7 @@ const FAQ_ITEMS = [
   {
     question: 'Are the templates free?',
     answer:
-      'Yes. Templates in stencil-templates are CC0 — no attribution required, though credit is appreciated.',
+      'Yes. Templates in stencil-templates are CC0. No attribution required, though credit is appreciated.',
   },
   {
     question: 'Can I contribute templates?',

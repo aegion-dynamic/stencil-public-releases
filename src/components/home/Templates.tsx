@@ -17,7 +17,7 @@ const EXAMPLE_JSON = `{
 
 const FOLDER_STRUCTURE = `my-template/
 ├── main.typ      # Layout and styling (Typst)
-├── input.json    # Data — one object per PDF output
+├── input.json    # Data: one object per PDF output
 └── assets/       # Optional images, fonts, etc.`
 
 export function Templates() {
@@ -43,11 +43,11 @@ export function Templates() {
           <h3>Suggested starter templates</h3>
           <ul>
             <li>
-              <strong>sample-letter</strong> — Simple business letter with company header,
+              <strong>sample-letter</strong>: Simple business letter with company header,
               date, recipient, and body
             </li>
             <li>
-              <strong>sample-memo</strong> — Internal memo with subject line and message
+              <strong>sample-memo</strong>: Internal memo with subject line and message
               body
             </li>
           </ul>
@@ -94,8 +94,8 @@ export function Templates() {
             rel="noopener noreferrer"
           >
             CC0 1.0
-          </a>{' '}
-          — use them freely in personal and commercial projects.
+          </a>
+          . Use them freely in personal and commercial projects.
         </p>
       </div>
     </section>

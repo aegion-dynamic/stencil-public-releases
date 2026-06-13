@@ -3,7 +3,7 @@ export function Tagline() {
     <section className="section tagline-section">
       <div className="container narrow">
         <blockquote className="tagline-quote">
-          &ldquo;We replaced our manual letter workflow with Stencil — one template, fifty
+          &ldquo;We replaced our manual letter workflow with Stencil: one template, fifty
           PDFs in a click.&rdquo;
         </blockquote>
         <p className="tagline-closing">

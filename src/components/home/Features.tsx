@@ -7,7 +7,7 @@ const FEATURES = [
   {
     title: 'Batch generation',
     description:
-      'One template, many PDFs — ideal for mail-merge-style workflows without Word.',
+      'One template, many PDFs, ideal for mail-merge-style workflows without Word.',
   },
   {
     title: 'JSON & spreadsheet input',

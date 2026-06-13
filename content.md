@@ -4,17 +4,17 @@ Here is landing-page copy grounded in what Stencil actually does in this repo: a
 
 ## Page meta (SEO)
 
-**Title:** Stencil — Template-based PDF generation  
-**Description:** Generate polished PDF documents from Typst templates and JSON data. Batch-build letters, memos, and more on your desktop — free templates available.  
+**Title:** Stencil: Template-based PDF generation  
+**Description:** Generate polished PDF documents from Typst templates and JSON data. Batch-build letters, memos, and more on your desktop. Free templates available.  
 **Keywords:** PDF generation, Typst templates, document automation, batch PDF, mail merge alternative
 
 ---
 
 ## Hero
 
-**Headline:** Turn templates into PDFs — at scale.
+**Headline:** Turn templates into PDFs at scale.
 
-**Subheadline:** Stencil is a desktop app for generating professional PDF documents from Typst templates. Fill in JSON (or import a spreadsheet), hit Build, and get one PDF per record — with live preview and optional signatures.
+**Subheadline:** Stencil is a desktop app for generating professional PDF documents from Typst templates. Fill in JSON (or import a spreadsheet), hit Build, and get one PDF per record, with live preview and optional signatures.
 
 **Primary CTA:** Download Stencil  
 **Secondary CTA:** Browse free templates → [stencil-templates](https://github.com/aegion-dynamic/stencil-templates)
@@ -26,7 +26,7 @@ Here is landing-page copy grounded in what Stencil actually does in this repo: a
 ## Problem → solution
 
 **The problem**  
-You have a document layout you reuse — offer letters, memos, certificates, client packets — but copying and pasting into Word or exporting one PDF at a time does not scale.
+You have a document layout you reuse: offer letters, memos, certificates, and client packets. But copying and pasting into Word or exporting one PDF at a time does not scale.
 
 **The solution**  
 Stencil separates **layout** (a Typst template) from **data** (JSON or Excel). One template, many documents. Change the data, rebuild, done.
@@ -39,7 +39,7 @@ Stencil separates **layout** (a Typst template) from **data** (JSON or Excel). O
 Each template is a folder with a `main.typ` file (and optional assets). Stencil discovers every folder that contains `main.typ` in your templates directory.
 
 **2. Add your data**  
-Edit `input.json` in the app — each top-level key becomes one output file. Or import an `.xlsx` spreadsheet and export it back when you are done.
+Edit `input.json` in the app. Each top-level key becomes one output file. Or import an `.xlsx` spreadsheet and export it back when you are done.
 
 **3. Build**  
 Click **Build**. Stencil compiles each entry to a PDF named `main-{key}.pdf` in your outputs folder.
@@ -54,7 +54,7 @@ Review PDFs in the built-in viewer. Place signature or image overlays where need
 | Feature | Description |
 |--------|-------------|
 | **Typst-powered layouts** | Modern, code-based typesetting with crisp typography and predictable output. |
-| **Batch generation** | One template, many PDFs — ideal for mail-merge-style workflows without Word. |
+| **Batch generation** | One template, many PDFs, ideal for mail-merge-style workflows without Word. |
 | **JSON & spreadsheet input** | Edit data in a JSON editor, or import/export Excel for non-technical teammates. |
 | **Built-in template editor** | Edit `.typ`, `.json`, and related files without leaving the app. |
 | **PDF preview** | Inspect output immediately after a build. |
@@ -71,12 +71,12 @@ Review PDFs in the built-in viewer. Place signature or image overlays where need
 **Body:**  
 Not sure where to begin? The [stencil-templates](https://github.com/aegion-dynamic/stencil-templates) repository collects free, reusable Stencil templates anyone can use. Clone or download a template folder, point Stencil at it, and customize the layout and sample data.
 
-**License note:** Templates in that repo are released under [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) — use them freely in personal and commercial projects.
+**License note:** Templates in that repo are released under [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/). Use them freely in personal and commercial projects.
 
 **Suggested starter templates** (for the repo README and landing page):
 
-- **sample-letter** — Simple business letter with company header, date, recipient, and body  
-- **sample-memo** — Internal memo with subject line and message body  
+- **sample-letter**: Simple business letter with company header, date, recipient, and body  
+- **sample-memo**: Internal memo with subject line and message body  
 - *(Add as you publish)* invoice, certificate, employment offer, NDA cover sheet, etc.
 
 **How to use a template (short instructions for landing page):**
@@ -90,7 +90,7 @@ Not sure where to begin? The [stencil-templates](https://github.com/aegion-dynam
 ```
 my-template/
 ├── main.typ      # Layout and styling (Typst)
-├── input.json    # Data — one object per PDF output
+├── input.json    # Data: one object per PDF output
 └── assets/       # Optional images, fonts, etc.
 ```
 
@@ -121,16 +121,16 @@ Each key (`alice`, `bob`) produces `main-alice.pdf` and `main-bob.pdf`.
 
 ## Who it is for
 
-- **Operations & admin** — Generate batches of letters, memos, or forms from a spreadsheet.  
-- **Small teams** — One person maintains the template; others only fill data.  
-- **Developers & power users** — Typst gives you version-controlled, diff-friendly layouts instead of fragile Word templates.  
-- **Anyone tired of manual PDF assembly** — Layout once, data many times.
+- **Operations & admin**: Generate batches of letters, memos, or forms from a spreadsheet.  
+- **Small teams**: One person maintains the template; others only fill data.  
+- **Developers & power users**: Typst gives you version-controlled, diff-friendly layouts instead of fragile Word templates.  
+- **Anyone tired of manual PDF assembly**: Layout once, data many times.
 
 ---
 
 ## Why Typst?
 
-Typst is a modern typesetting language designed for documents: fast compilation, clean syntax, and reliable PDF output. Stencil wraps Typst so you do not need the CLI — templates, data, build, and preview live in one desktop workflow.
+Typst is a modern typesetting language designed for documents: fast compilation, clean syntax, and reliable PDF output. Stencil wraps Typst so you do not need the CLI. Templates, data, build, and preview live in one desktop workflow.
 
 ---
 
@@ -169,7 +169,7 @@ Yes. Use **Import** on the Input tab to load an `.xlsx` file (rows need a `key` 
 Yes. Open a PDF in the Output tab, place signature or image overlays, and save or export the annotated file.
 
 **Are the templates free?**  
-Yes. Templates in [stencil-templates](https://github.com/aegion-dynamic/stencil-templates) are CC0 — no attribution required, though credit is appreciated.
+Yes. Templates in [stencil-templates](https://github.com/aegion-dynamic/stencil-templates) are CC0. No attribution required, though credit is appreciated.
 
 **Can I contribute templates?**  
 Contributions welcome on GitHub. Each template should be a self-contained folder with `main.typ`, `input.json`, and a short README describing fields and usage.
@@ -183,7 +183,7 @@ You can paste this into the [stencil-templates](https://github.com/aegion-dynami
 ```markdown
 # Stencil Templates
 
-Free, reusable templates for [Stencil](https://github.com/aegion-dynamic/stencil) — template-based PDF generation powered by Typst.
+Free, reusable templates for [Stencil](https://github.com/aegion-dynamic/stencil): template-based PDF generation powered by Typst.
 
 ## License
 
@@ -199,8 +199,8 @@ All templates in this repository are dedicated to the public domain under [CC0 1
 
 Each template is a folder containing:
 
-- `main.typ` — Typst layout; reads variables via `sys.inputs`
-- `input.json` — Data map; each key generates one PDF (`main-{key}.pdf`)
+- `main.typ`: Typst layout; reads variables via `sys.inputs`
+- `input.json`: Data map; each key generates one PDF (`main-{key}.pdf`)
 - Optional assets (images, fonts)
 
 ## Available templates
@@ -225,7 +225,7 @@ PRs welcome. Please include:
 **Nav:** Features · Templates · Download · GitHub  
 
 **Social proof placeholder:**  
-> “We replaced our manual letter workflow with Stencil — one template, fifty PDFs in a click.”
+> “We replaced our manual letter workflow with Stencil: one template, fifty PDFs in a click.”
 
 **Closing tagline:**  
 **Layout once. Data many times. PDFs everywhere.**

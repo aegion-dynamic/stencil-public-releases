@@ -7,11 +7,11 @@ export function Hero() {
       <div className="container hero-inner">
         <div className="hero-content">
           <p className="eyebrow">Template-based PDF generation</p>
-          <h1>Turn templates into PDFs — at scale.</h1>
+          <h1>Turn templates into PDFs at scale.</h1>
           <p className="hero-subtitle">
             Stencil is a desktop app for generating professional PDF documents from Typst
             templates. Fill in JSON (or import a spreadsheet), hit Build, and get one PDF
-            per record — with live preview and optional signatures.
+            per record, with live preview and optional signatures.
           </p>
           <DownloadButtons showOlderLink />
           <a

@@ -9,7 +9,7 @@ const STEPS = [
     number: '2',
     title: 'Add your data',
     description:
-      'Edit input.json in the app — each top-level key becomes one output file. Or import an .xlsx spreadsheet and export it back when you are done.',
+      'Edit input.json in the app. Each top-level key becomes one output file. Or import an .xlsx spreadsheet and export it back when you are done.',
   },
   {
     number: '3',
