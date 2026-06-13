@@ -1,5 +1,10 @@
 import { Link } from 'react-router-dom'
 import { assetUrl, homeAnchor } from '../../lib/paths'
+import {
+  GITHUB_DISCUSSIONS_URL,
+  GITHUB_ISSUES_URL,
+  GITHUB_RELEASES_URL,
+} from '../../lib/releases'
 
 export function Footer() {
   return (
@@ -21,12 +26,14 @@ export function Footer() {
           >
             Templates repo
           </a>
-          <a
-            href="https://github.com/aegion-dynamic/stencil-public-releases"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            GitHub
+          <a href={GITHUB_RELEASES_URL} target="_blank" rel="noopener noreferrer">
+            Releases
+          </a>
+          <a href={GITHUB_ISSUES_URL} target="_blank" rel="noopener noreferrer">
+            Report an issue
+          </a>
+          <a href={GITHUB_DISCUSSIONS_URL} target="_blank" rel="noopener noreferrer">
+            Discussions
           </a>
         </div>
 

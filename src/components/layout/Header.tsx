@@ -1,5 +1,6 @@
 import { Link, NavLink } from 'react-router-dom'
 import { assetUrl, homeAnchor } from '../../lib/paths'
+import { GITHUB_DISCUSSIONS_URL, GITHUB_ISSUES_URL } from '../../lib/releases'
 
 export function Header() {
   return (
@@ -14,12 +15,11 @@ export function Header() {
           <a href={homeAnchor('features')}>Features</a>
           <a href={homeAnchor('templates')}>Templates</a>
           <NavLink to="/download">Download</NavLink>
-          <a
-            href="https://github.com/aegion-dynamic/stencil-public-releases"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            GitHub
+          <a href={GITHUB_ISSUES_URL} target="_blank" rel="noopener noreferrer">
+            Issues
+          </a>
+          <a href={GITHUB_DISCUSSIONS_URL} target="_blank" rel="noopener noreferrer">
+            Discussions
           </a>
         </nav>
 

@@ -174,6 +174,9 @@ Yes. Templates in [stencil-templates](https://github.com/aegion-dynamic/stencil-
 **Can I contribute templates?**  
 Contributions welcome on GitHub. Each template should be a self-contained folder with `main.typ`, `input.json`, and a short README describing fields and usage.
 
+**How do I report a bug or ask a question?**  
+File a bug or feature request on [GitHub Issues](https://github.com/aegion-dynamic/stencil-public-releases/issues). For questions, ideas, and general discussion, visit [GitHub Discussions](https://github.com/aegion-dynamic/stencil-public-releases/discussions).
+
 ---
 
 ## Suggested content for `stencil-templates` README
@@ -222,7 +225,7 @@ PRs welcome. Please include:
 
 ## Optional short sections for a minimal one-page layout
 
-**Nav:** Features · Templates · Download · GitHub  
+**Nav:** Features · Templates · Download · Issues · Discussions  
 
 **Social proof placeholder:**  
 > “We replaced our manual letter workflow with Stencil: one template, fifty PDFs in a click.”

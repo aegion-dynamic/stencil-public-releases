@@ -639,6 +639,22 @@ main {
   margin-bottom: 32px;
 }
 
+.download-page-help {
+  margin-top: 32px;
+  text-align: center;
+  color: var(--text-muted);
+  font-size: 0.9rem;
+}
+
+.download-page-help a {
+  color: var(--text-heading);
+  font-weight: 500;
+}
+
+.download-page-help a:hover {
+  text-decoration: underline;
+}
+
 /* Release cards */
 
 .release-list {

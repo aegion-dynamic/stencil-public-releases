@@ -1,6 +1,9 @@
 export const GITHUB_OWNER = 'aegion-dynamic'
 export const GITHUB_REPO = 'stencil-public-releases'
-export const GITHUB_RELEASES_URL = `https://github.com/${GITHUB_OWNER}/${GITHUB_REPO}/releases`
+export const GITHUB_REPO_URL = `https://github.com/${GITHUB_OWNER}/${GITHUB_REPO}`
+export const GITHUB_RELEASES_URL = `${GITHUB_REPO_URL}/releases`
+export const GITHUB_ISSUES_URL = `${GITHUB_REPO_URL}/issues`
+export const GITHUB_DISCUSSIONS_URL = `${GITHUB_REPO_URL}/discussions`
 
 export type Platform = 'macos' | 'windows' | 'linux'
 

@@ -1,6 +1,7 @@
-import { useState } from 'react'
+import { useState, type ReactNode } from 'react'
+import { GITHUB_DISCUSSIONS_URL, GITHUB_ISSUES_URL } from '../../lib/releases'
 
-const FAQ_ITEMS = [
+const FAQ_ITEMS: { question: string; answer: ReactNode }[] = [
   {
     question: 'Do I need to know Typst?',
     answer:
@@ -35,6 +36,22 @@ const FAQ_ITEMS = [
     question: 'Can I contribute templates?',
     answer:
       'Contributions welcome on GitHub. Each template should be a self-contained folder with main.typ, input.json, and a short README describing fields and usage.',
+  },
+  {
+    question: 'How do I report a bug or ask a question?',
+    answer: (
+      <>
+        File a bug or feature request on{' '}
+        <a href={GITHUB_ISSUES_URL} target="_blank" rel="noopener noreferrer">
+          GitHub Issues
+        </a>
+        . For questions, ideas, and general discussion, visit{' '}
+        <a href={GITHUB_DISCUSSIONS_URL} target="_blank" rel="noopener noreferrer">
+          GitHub Discussions
+        </a>
+        .
+      </>
+    ),
   },
 ]
 

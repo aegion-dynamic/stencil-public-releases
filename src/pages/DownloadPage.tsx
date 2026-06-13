@@ -1,4 +1,8 @@
-import { GITHUB_RELEASES_URL } from '../lib/releases'
+import {
+  GITHUB_DISCUSSIONS_URL,
+  GITHUB_ISSUES_URL,
+  GITHUB_RELEASES_URL,
+} from '../lib/releases'
 import { DownloadButtons } from '../components/download/DownloadButtons'
 import { ReleaseList } from '../components/download/ReleaseList'
 
@@ -26,6 +30,17 @@ export function DownloadPage() {
             , with installers for macOS, Windows, and Linux.
           </p>
           <ReleaseList />
+          <p className="download-page-help">
+            Found a bug or need help?{' '}
+            <a href={GITHUB_ISSUES_URL} target="_blank" rel="noopener noreferrer">
+              Report an issue
+            </a>{' '}
+            or join the conversation on{' '}
+            <a href={GITHUB_DISCUSSIONS_URL} target="_blank" rel="noopener noreferrer">
+              GitHub Discussions
+            </a>
+            .
+          </p>
         </div>
       </section>
     </div>
